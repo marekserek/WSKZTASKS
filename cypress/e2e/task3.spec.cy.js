@@ -1,7 +1,6 @@
 
-describe('Login', () => {
-  it('Is should allow creat account', () => {
-   // cy.visit('https://www.wskz.pl')
+describe('Task3', () => {
+  it('Redirect to WSKZ and check students', () => {
     cy.visit('http://localhost:3000/new-page')    
 
     cy

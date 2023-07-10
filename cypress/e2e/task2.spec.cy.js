@@ -1,4 +1,4 @@
-describe('Login', () => {
+describe('Task2', () => {
   it('Is should allow creat account', () => {
     cy.visit('http://localhost:3000/registration')
     cy.get('#username').type("jan.testowy@wskz.pl");
